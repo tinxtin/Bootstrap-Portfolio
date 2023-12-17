@@ -1,0 +1,28 @@
+
+:root {
+    --orange: rgb(251, 133, 0);
+    --yellow: rgb(255, 183, 3);
+    --dark-blue: rgb(2, 48, 71);
+    --normal-blue: rgb(33, 158, 188);
+    --light-blue: rgb(142, 202, 230);
+}
+
+/* colour */
+.bg-primary {
+    background-color: var(--orange)!important;
+}
+
+.d-flex {
+    gap: 0rem;
+}
+
+.mx-12 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.container {
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+}

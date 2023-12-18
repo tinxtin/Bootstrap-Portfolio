@@ -7,9 +7,13 @@
     --light-blue: rgb(142, 202, 230);
 }
 
-/* colour */
+/* general */
 .bg-primary {
     background-color: var(--orange)!important;
+}
+
+.bg-secondary {
+    background-color: var(--dark-blue)!important;
 }
 
 .mx-12 {
@@ -27,6 +31,11 @@
     overflow: hidden;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 /* card */
 
 .card {
@@ -34,7 +43,7 @@
     flex-direction: row;
 }
 
-.card:hover {
+#project .card:hover {
     transform: scale(1.05);
 }
 
@@ -44,6 +53,11 @@
     margin: 0 auto;
     padding: .5rem;
     border-radius: .75rem;
+}
+
+#skills .card-body {
+    margin: 0;
+    padding: 0;
 }
 
 

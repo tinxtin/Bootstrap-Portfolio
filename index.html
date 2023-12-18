@@ -17,10 +17,10 @@
                     <a class="nav-link" href="#project">Project</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="#contact-skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact-skills">Contact</a>
                 </li>
             </ul>
         </div>
@@ -55,21 +55,21 @@
             <div class="container text-center">
                 <div id="row-1" class="row">
                     <div class="col-xl-6  my-md-1 my-sm-1">
-                        <div id="card-1" class="card h-100">
-                            <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
+                        <div id="card-1" class="card bg-secondary h-100">
+                            <img src="./static/image/Screenshot 2023-12-17 202130.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Portfolio</h5>
-                              <p class="card-text">My portfolio created with pure css and html.</p>
+                              <p class="card-text text-white">My portfolio created with pure css and html.</p>
                               <a href="https://tinxtin.github.io/Portfolio/" class="btn-primary stretched-link bg-transparent border-0"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 my-md-1 my-sm-1">
-                        <div id="card-2" class="card h-100">
-                            <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
+                        <div id="card-2" class="card bg-secondary h-100">
+                            <img src="./static/image/Screenshot 2023-12-05 014321.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Horiseon</h5>
-                              <p class="card-text">On-the-ticket project,  enhancing the accesability of website.</p>
+                              <p class="card-text text-white">On-the-ticket project,  enhancing the accesability of website.</p>
                               <a href="https://tinxtin.github.io/bootcamp-challenge-1/" class="btn-primary stretched-link bg-transparent border-0"></a>
                             </div>
                         </div>
@@ -77,31 +77,31 @@
                 </div>  
                 <div id="row-2" class="row">
                     <div class="col-xl-4 h-100 my-md-1 my-sm-1">
-                        <div id="card-3" class="card h-100">
+                        <div id="card-3" class="card bg-secondary h-100">
                             <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Placeholder-3</h5>
-                              <p class="card-text">Placeholder-text-3</p>
+                              <p class="card-text text-white">Placeholder-text-3</p>
                               <a href="#" class="btn-primary stretched-link bg-transparent border-0"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 my-md-1 my-sm-1">
-                        <div id="card-4" class="card h-100">
+                        <div id="card-4" class="card bg-secondary h-100">
                             <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Placeholder-4</h5>
-                              <p class="card-text">Placeholder-text-4</p>
+                              <p class="card-text text-white">Placeholder-text-4</p>
                               <a href="#" class="btn-primary stretched-link bg-transparent border-0"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 my-md-1 my-sm-1">
-                        <div id="card-5" class="card h-100">
+                        <div id="card-5" class="card bg-secondary h-100">
                             <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Placeholder-5</h5>
-                              <p class="card-text">Placeholder-text-5</p>
+                              <p class="card-text text-white">Placeholder-text-5</p>
                               <a href="#" class="btn-primary stretched-link bg-transparent border-0"></a>
                             </div>
                         </div>
@@ -111,34 +111,58 @@
         </div>
     </section>
 
-    <section id="skills" class="d-flex justify-content-center">
-        <div class="container bg-primary my-3 p-3 w-75">
-            <h4>Skills</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Leo urna molestie at elementum eu facilisis sed. Amet mattis vulputate enim nulla aliquet porttitor.
-            </p>
-        </div>
-    </section>
-
-    <section id="contact" class="d-flex justify-content-center">
-        <div class="container bg-primary my-3 p-3 w-75">
-            <form action="">
-                <h4>Contact</h4>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name:</label>
-                    <input type="input" class="form-control" id="contact-name">
+    <section id="contact-skills" class="d-flex justify-content-center">
+        <div class="w-75">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="container bg-primary p-3 h-100">
+                        <form action="">
+                            <h4>Contact</h4>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="input" class="form-control" id="contact-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address:</label>
+                                <input type="input" class="form-control" id="contact-email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                                <textarea class="form-control" id="contact-msg" rows="3"></textarea>
+                            </div>
+                            <button type="button" class="btn bg-secondary text-white">Send Message</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email address:</label>
-                    <input type="input" class="form-control" id="contact-email" placeholder="name@example.com">
+                <div class="col-lg-4">
+                    <div>
+                        <div class="container bg-primary p-3 h-100">
+                            <h4>Skills</h4>
+                            <div class="card rounded-3 bg-secondary my-xl-2">
+                                <div class="card-body text-white">
+                                    <h3>Front-end</h3>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JS</li>
+                                        <li>React</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card rounded-3 bg-secondary my-xl-2">
+                                <div class="card-body text-white">
+                                    <h3>Back-end</h3>
+                                    <ul>
+                                        <li>Node.Js</li>
+                                        <li>SQL</li>
+                                        <li>API's</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
-                    <textarea class="form-control" id="contact-msg" rows="3"></textarea>
-                </div>
-                <button type="button" class="btn">Base class</button>
-            </form>
+            </div>
         </div>
     </section>
 

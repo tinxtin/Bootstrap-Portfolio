@@ -39,9 +39,11 @@
 }
 
 .card img {
-    max-width: 35%;
+    max-width: 33.3%;
     background-size: cover;
     margin: 0 auto;
     padding: .5rem;
     border-radius: .75rem;
 }
+
+

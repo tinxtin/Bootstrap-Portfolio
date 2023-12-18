@@ -12,10 +12,6 @@
     background-color: var(--orange)!important;
 }
 
-.d-flex {
-    gap: 0rem;
-}
-
 .mx-12 {
     margin-left: 6rem;
     margin-right: 6rem;
@@ -25,4 +21,12 @@
     border-radius: 1rem;
     margin: 0;
     padding: 0;
+}
+
+.card {
+    transition: all .3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }

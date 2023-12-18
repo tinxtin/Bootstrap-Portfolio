@@ -60,4 +60,12 @@ ul {
     padding: 0;
 }
 
+/* image, svg */
 
+a:hover svg {
+    fill: var(--dark-blue);
+}
+
+button:hover {
+    box-shadow: 0px 2px 2px black;
+}

@@ -1,28 +1,35 @@
 
 :root {
-    --orange: rgb(251, 133, 0);
-    --yellow: rgb(255, 183, 3);
-    --dark-blue: rgb(2, 48, 71);
-    --normal-blue: rgb(33, 158, 188);
-    --light-blue: rgb(142, 202, 230);
+    --primary: rgb(132, 143, 165);
+    --secondary: rgb(71, 91, 99);
+    --tertiary: rgb(240, 236, 87);
+
 }
 
 /* general */
 .bg-primary {
-    background-color: var(--orange)!important;
+    background-color: var(--primary)!important;
 }
 
 .bg-secondary {
-    background-color: var(--dark-blue)!important;
+    background-color: var(--secondary)!important;
+}
+
+.bg-tertiary {
+    background-color: var(--tertiary);
 }
 
 .text-primary {
-    color: var(--dark-blue)!important;
+    color: var(--secondary)!important;
+}
+
+.text-tertiary {
+    color: var(--tertiary);
 }
 
 .mx-12 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .container {
@@ -44,6 +51,7 @@ a {
     cursor: pointer;
 }
 
+
 /* card */
 
 .card {
@@ -56,7 +64,8 @@ a {
 }
 
 .card img {
-    max-width: 33.3%;
+    width: 33.3%;
+    height: auto;
     background-size: cover;
     margin: 0 auto;
     padding: .5rem;
@@ -71,11 +80,14 @@ a {
 /* image, svg */
 
 a:hover svg {
-    fill: var(--dark-blue);
+    fill: var(--secondary);
 }
+
+/* btn */
 
 button:hover {
     box-shadow: 0px 2px 2px black;
+    color: var(--tertiary)!important;
 }
 
 @media (min-width: 576px) {
@@ -83,3 +95,4 @@ button:hover {
         width: 75%!important;
     }
 }
+

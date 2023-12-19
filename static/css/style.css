@@ -16,6 +16,10 @@
     background-color: var(--dark-blue)!important;
 }
 
+.text-primary {
+    color: var(--dark-blue)!important;
+}
+
 .mx-12 {
     margin-left: 6rem;
     margin-right: 6rem;
@@ -34,6 +38,10 @@
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+a {
+    cursor: pointer;
 }
 
 /* card */
@@ -69,3 +77,6 @@ a:hover svg {
 button:hover {
     box-shadow: 0px 2px 2px black;
 }
+
+/* link */
+

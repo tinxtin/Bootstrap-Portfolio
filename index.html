@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="./static/css/style.css">
     <title>Thinh Vu</title>
 </head>
-<body class="bg-dark mx-12">
-    <nav class="navbar">
+<body class="bg-dark mx-sm-12">
+    <nav class="navbar d-none d-lg-flex">
         <div class="d-flex container-fluid justify-content-start w-75 px-0">
             <ul class="nav border rounded-4 p-2 bg-primary border-0">
                 <li class="nav-item">
@@ -27,16 +27,16 @@
     </nav>
 
     <section id="about" class="d-flex justify-content-center">
-        <div class="w-75">
+        <div class="container w-75">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 my-md-2 my-sm-1 my-1">
                     <header class="container bg-primary p-3 h-100">
                         <h1>Thinh Vu</h1>
                         <h3>Soon to be Front-end developer</h3>
                         <p class="lead">Enjoys front-end development and UI/UX design</p>
                     </header>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 my-md-2 my-sm-1 my-1">
                     <div class="container bg-primary p-3 h-100">
                         <h4>About Me</h4>
                         <p>Programming caught my attention awhile ago, leading me to deep dive into a coding rabbit hole.
@@ -50,11 +50,11 @@
     </section>
 
     <section id="project" class="d-flex justify-content-center">
-        <div class="container bg-primary my-3 p-4 w-75">
+        <div class="container bg-primary my-2 p-3 w-75">
             <h4>Projects</h4>
             <div class="container text-center">
                 <div id="row-1" class="row">
-                    <div class="col-xl-6  my-md-1 my-sm-1">
+                    <div class="col-xl-6 my-md-1 my-sm-1 my-1">
                         <div id="card-1" class="card bg-secondary h-100">
                             <img src="./static/image/Screenshot 2023-12-17 202130.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -64,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 my-md-1 my-sm-1">
+                    <div class="col-xl-6 my-md-1 my-sm-1 my-1">
                         <div id="card-2" class="card bg-secondary h-100">
                             <img src="./static/image/Screenshot 2023-12-05 014321.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -76,7 +76,7 @@
                     </div>
                 </div>  
                 <div id="row-2" class="row">
-                    <div class="col-xl-4 h-100 my-md-1 my-sm-1">
+                    <div class="col-xl-4 my-md-1 my-sm-1 my-1">
                         <div id="card-3" class="card bg-secondary h-100">
                             <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 my-md-1 my-sm-1">
+                    <div class="col-xl-4 my-md-1 my-sm-1 my-1">
                         <div id="card-4" class="card bg-secondary h-100">
                             <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 my-md-1 my-sm-1">
+                    <div class="col-xl-4 my-md-1 my-sm-1 my-1">
                         <div id="card-5" class="card bg-secondary h-100">
                             <img src="https://placehold.co/400x400" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -112,9 +112,9 @@
     </section>
 
     <section id="contact-skills" class="d-flex justify-content-center">
-        <div class="w-75">
+        <div class="container w-75">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 my-md-2 my-sm-1 my-1">
                     <div class="container bg-primary p-3 h-100">
                         <form action="">
                             <h4>Contact</h4>
@@ -135,30 +135,28 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div>
-                        <div class="container bg-primary p-3 h-100">
-                            <h4>Skills</h4>
-                            <div class="card rounded-3 bg-secondary my-xl-2">
-                                <div class="card-body text-white">
-                                    <h3>Front-end</h3>
-                                    <ul>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JS</li>
-                                        <li>React</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 my-md-2 my-sm-1 my-1">
+                    <div class="container bg-primary p-3 h-100">
+                        <h4>Skills</h4>
+                        <div class="card rounded-3 bg-secondary my-xl-2 my-md-2 my-sm-1 my-1">
+                            <div class="card-body text-white">
+                                <h3>Front-end</h3>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                    <li>React</li>
+                                </ul>
                             </div>
-                            <div class="card rounded-3 bg-secondary my-xl-2">
-                                <div class="card-body text-white">
-                                    <h3>Back-end</h3>
-                                    <ul>
-                                        <li>Node.Js</li>
-                                        <li>SQL</li>
-                                        <li>API's</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div class="card rounded-3 bg-secondary my-xl-2 my-md-2 my-sm-1 my-1">
+                            <div class="card-body text-white">
+                                <h3>Back-end</h3>
+                                <ul>
+                                    <li>Node.Js</li>
+                                    <li>SQL</li>
+                                    <li>API's</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -167,8 +165,8 @@
         </div>
     </section>  
 
-    <footer class="d-flex flex-wrap justify-content-center align-items-center py-2 my-1">
-        <div class="w-75 d-flex justify-content-between p-2 bg-primary rounded-4">
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-2">
+        <div class="container w-75 d-flex justify-content-between p-2 bg-primary rounded-4">
             <div class="col-md-4 d-flex align-items-center">
                 <span class="mb-3 mb-md-0 text-body-secondary bg-primary">
                     Created with Bootstrap v5.3

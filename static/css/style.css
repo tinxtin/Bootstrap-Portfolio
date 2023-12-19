@@ -78,5 +78,8 @@ button:hover {
     box-shadow: 0px 2px 2px black;
 }
 
-/* link */
-
+@media (min-width: 576px) {
+    .w-xs-75 {
+        width: 75%!important;
+    }
+}

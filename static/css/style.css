@@ -51,6 +51,9 @@ a {
     cursor: pointer;
 }
 
+textarea {
+    resize: none;
+}
 
 /* card */
 
@@ -80,7 +83,7 @@ a {
 /* image, svg */
 
 a:hover svg {
-    fill: var(--secondary);
+    fill: var(--tertiary);
 }
 
 /* btn */
@@ -88,11 +91,5 @@ a:hover svg {
 button:hover {
     box-shadow: 0px 2px 2px black;
     color: var(--tertiary)!important;
-}
-
-@media (min-width: 576px) {
-    .w-xs-75 {
-        width: 75%!important;
-    }
 }
 
